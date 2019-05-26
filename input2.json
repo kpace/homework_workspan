@@ -1,0 +1,23 @@
+{
+  "entities": [{
+      "entity_id": 1,
+      "name": "EntityA"
+  }, {
+      "entity_id": 2,
+      "name": "EntityB"
+  }, {
+      "entity_id": 3,
+      "name": "EntityC",
+      "description": "More details about entity C"
+  }],
+  "links": [{
+      "from": 1,
+      "to": 2
+  }, {
+      "from": 2,
+      "to": 3
+  }, {
+      "from": 3,
+      "to": 1
+  }]
+}
